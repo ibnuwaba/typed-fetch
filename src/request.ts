@@ -40,7 +40,7 @@ const response = await fetch(requestUrl, fetchOptions);
       };
     }
 
-    const data = (await response.json()) as T;
+    const data = (await response.json()) as T; 
 
     return {
       ok: true,
